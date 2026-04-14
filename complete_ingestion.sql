@@ -16,7 +16,7 @@ field_delimiter='\t'
 create  stage if not exists stage1
 file_format=csv_format1
 url='s3://news-bucket-jssr/transformed_data/news_data/'
-credentials=(AWS_KEY_ID='AKIAXI23GKITMTGJIY5Y' AWS_SECRET_KEY ='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'
+credentials=(AWS_KEY_ID='AWS_KEY' AWS_SECRET_KEY ='AWS_SECRET'
 )
 
 list @stage1
